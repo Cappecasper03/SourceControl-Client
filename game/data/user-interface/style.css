@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+}
+
+.title-bar-container {
+	display:             flex;
+	background-color:    rgb(26, 26, 26);
+	align-items:         center;
+	min-width:           600px;
+
+	-ms-user-select:     none;
+	-webkit-user-select: none;
+	user-select:         none;
+}
+
+.title-bar-box {
+	flex:            1;
+	display:         flex;
+	justify-content: center;
+}
+
+.title-bar-box:first-child > div {
+	margin-right: auto;
+	min-width:    300px;
+}
+
+.title-bar-box:last-child > div {
+	margin-left: auto;
+}
+
+p.title-bar {
+	font-size: 20px;
+	color:     white;
+	margin:    0;
+	padding:   0;
+}
+
+button.title-bar {
+	color:            white;
+	font-size:        15px;
+	background-color: rgb(26, 26, 26);
+	border-radius:    5px;
+	border:           none;
+}
+
+button.title-bar:hover {
+	background-color: rgb(66, 66, 66);
+}
+
+button.title-bar#close:hover {
+	background-color: rgb(232, 17, 35);
+}
+
+.quick-control-container {
+	display:             flex;
+	background-color:    rgb(26, 26, 26);
+	align-items:         center;
+	min-width:           600px;
+
+	-ms-user-select:     none;
+	-webkit-user-select: none;
+	user-select:         none;
+}
+
+.quick-control-box {
+	flex:            1;
+	display:         flex;
+	justify-content: center;
+}
+
+.quick-control-box:first-child > div {
+	margin-right: auto;
+	min-width:    300px;
+}
+
+.quick-control-box:last-child > div {
+	margin-left: auto;
+}
+
+p.quick-control {
+	color: white;
+}
+
+.quick-control-inner {
+	border: 1px solid red;
+}
+
+button.quick-control {
+	color:            white;
+	font-size:        12px;
+	background-color: rgb(26, 26, 26);
+	border-radius:    5px;
+	border:           none;
+}
+
+button.quick-control:hover {
+	background-color: rgb(48, 48, 48);
+}
