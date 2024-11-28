@@ -1,14 +1,32 @@
 body {
 	background-color:    rgb(26, 26, 26);
-	display:             flex;
-	justify-content:     space-between;
-	align-items:         center;
-	min-width:           600px;
 	margin:              0;
 
 	-ms-user-select:     none;
 	-webkit-user-select: none;
 	user-select:         none;
+}
+
+.container {
+	display:          flex;
+	background-color: rgb(26, 26, 26);
+	align-items:      center;
+	min-width:        600px;
+}
+
+.box {
+	flex:            1;
+	display:         flex;
+	justify-content: center;
+}
+
+.box:first-child > div {
+	margin-right: auto;
+	min-width:    300px;
+}
+
+.box:last-child > div {
+	margin-left: auto;
 }
 
 p {
