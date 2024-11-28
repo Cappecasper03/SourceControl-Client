@@ -1,0 +1,35 @@
+body {
+	background-color:    rgb(26, 26, 26);
+	display:             flex;
+	justify-content:     space-between;
+	align-items:         center;
+	min-width:           600px;
+	margin:              0;
+
+	-ms-user-select:     none;
+	-webkit-user-select: none;
+	user-select:         none;
+}
+
+p {
+	font-size: 20px;
+	color:     white;
+	margin:    0;
+	padding:   0;
+}
+
+button {
+	color:            white;
+	font-size:        15px;
+	background-color: rgb(26, 26, 26);
+	border-radius:    5px;
+	border:           none;
+}
+
+button:hover {
+	background-color: rgb(66, 66, 66);
+}
+
+button#close:hover {
+	background-color: rgb(232, 17, 35);
+}
