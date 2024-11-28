@@ -1,0 +1,27 @@
+[submodule "libraries/assimp"]
+	path = libraries/assimp
+	url = https://github.com/assimp/assimp.git
+[submodule "libraries/fmt"]
+	path = libraries/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "libraries/freetype"]
+	path = libraries/freetype
+	url = https://github.com/freetype/freetype.git
+[submodule "libraries/glm"]
+	path = libraries/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "libraries/glfw"]
+	path = libraries/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "libraries/tracy"]
+	path = libraries/tracy
+	url = https://github.com/wolfpld/tracy.git
+[submodule "libraries/VulkanMemoryAllocator-Hpp"]
+	path = libraries/VulkanMemoryAllocator-Hpp
+	url = https://github.com/YaaZ/VulkanMemoryAllocator-Hpp.git
+[submodule "libraries/stb/stb"]
+	path = libraries/stb/stb
+	url = https://github.com/nothings/stb.git
+[submodule "libraries/imgui/imgui"]
+	path = libraries/imgui/imgui
+	url = https://github.com/ocornut/imgui.git
