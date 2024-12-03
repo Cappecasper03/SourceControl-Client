@@ -81,6 +81,10 @@ p.quick-control {
 	color: white;
 }
 
+.quick-control-inner#current p {
+	text-align: center;
+}
+
 .quick-control-inner {
 	border: 1px solid red;
 }
